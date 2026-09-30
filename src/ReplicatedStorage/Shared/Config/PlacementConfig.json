@@ -1,0 +1,15 @@
+{
+  "GridSize": 4,
+  "RoadTileSize": 8,
+  "MaxRoadDistance": 20,
+  "RequireRoadAccess": true,
+  "OverlapTolerance": 0.05,
+  "MaxPlacementRayDistance": 1000,
+  "PreviewTransparency": 0.35,
+  "PreviewInvalidColor": [
+    235,
+    90,
+    90
+  ],
+  "RequestCooldown": 0.15
+}

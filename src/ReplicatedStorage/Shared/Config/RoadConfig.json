@@ -1,0 +1,62 @@
+{
+  "TileSize": 8,
+  "RoadWidth": 6,
+  "Colors": {
+    "Asphalt": [
+      74,
+      78,
+      86
+    ],
+    "Sidewalk": [
+      200,
+      202,
+      204
+    ],
+    "Marking": [
+      240,
+      240,
+      236
+    ]
+  },
+  "Types": [
+    {
+      "Id": "Straight",
+      "DisplayName": "Straight",
+      "Openings": [
+        "N",
+        "S"
+      ],
+      "Active": true
+    },
+    {
+      "Id": "Corner",
+      "DisplayName": "Corner",
+      "Openings": [
+        "N",
+        "E"
+      ],
+      "Active": true
+    },
+    {
+      "Id": "TJunction",
+      "DisplayName": "T-Junction",
+      "Openings": [
+        "N",
+        "E",
+        "W"
+      ],
+      "Active": true
+    },
+    {
+      "Id": "Crossroad",
+      "DisplayName": "Crossroad",
+      "Openings": [
+        "N",
+        "E",
+        "S",
+        "W"
+      ],
+      "Active": true
+    }
+  ]
+}

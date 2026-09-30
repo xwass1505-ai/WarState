@@ -1,0 +1,73 @@
+{
+  "SchemaVersion": 1,
+  "DataStoreName": "WarState_Slots_v1",
+  "DataStoreRetries": 3,
+  "AutosaveSeconds": 60,
+  "SlotCount": 3,
+  "Slots": [
+    {
+      "Index": 1,
+      "Unlocked": true,
+      "Label": "FREE"
+    },
+    {
+      "Index": 2,
+      "Unlocked": false,
+      "Label": "LOCKED"
+    },
+    {
+      "Index": 3,
+      "Unlocked": false,
+      "Label": "LOCKED"
+    }
+  ],
+  "CountryName": {
+    "MinLength": 3,
+    "MaxLength": 24
+  },
+  "Territory": {
+    "Size": 480,
+    "Spacing": 640,
+    "OriginX": 2000,
+    "OriginZ": 0,
+    "SurfaceY": 0,
+    "Thickness": 4,
+    "MaxPlots": 12,
+    "BorderWidth": 2,
+    "Color": [
+      0.45,
+      0.68,
+      0.38
+    ],
+    "BorderColor": [
+      0.38,
+      0.6,
+      0.33
+    ]
+  },
+  "Population": {
+    "TickSeconds": 4,
+    "GrowthFraction": 0.15,
+    "MinGrowth": 1,
+    "WorkerRatio": 0.5
+  },
+  "Construction": {
+    "PlannedSeconds": 2,
+    "TickSeconds": 0.5,
+    "GhostTransparency": 0.8,
+    "ProgressBarMaxDistance": 160
+  },
+  "EmptyCountry": {
+    "Money": 0,
+    "Oil": 0,
+    "Fuel": 0,
+    "Steel": 0,
+    "Supplies": 0,
+    "Population": 0,
+    "Workers": 0,
+    "HousingCapacity": 0,
+    "Buildings": {},
+    "Roads": {},
+    "Military": {}
+  }
+}

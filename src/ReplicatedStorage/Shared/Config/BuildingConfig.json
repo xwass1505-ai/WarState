@@ -1,0 +1,58 @@
+{
+  "Buildings": [
+    {
+      "Id": "SmallHouse",
+      "DisplayName": "Small House",
+      "Category": "Housing",
+      "Footprint": [
+        8,
+        8
+      ],
+      "HousingCapacity": 4,
+      "BuildTimeSeconds": 12,
+      "Variants": [
+        "SmallHouse_A",
+        "SmallHouse_B",
+        "SmallHouse_C",
+        "SmallHouse_D"
+      ],
+      "Active": true
+    },
+    {
+      "Id": "MediumHouse",
+      "DisplayName": "Medium House",
+      "Category": "Housing",
+      "Footprint": [
+        12,
+        8
+      ],
+      "HousingCapacity": 8,
+      "BuildTimeSeconds": 20,
+      "Variants": [
+        "MediumHouse_A",
+        "MediumHouse_B",
+        "MediumHouse_C",
+        "MediumHouse_D"
+      ],
+      "Active": true
+    },
+    {
+      "Id": "LargeHouse",
+      "DisplayName": "Large House",
+      "Category": "Housing",
+      "Footprint": [
+        16,
+        12
+      ],
+      "HousingCapacity": 14,
+      "BuildTimeSeconds": 30,
+      "Variants": [
+        "LargeHouse_A",
+        "LargeHouse_B",
+        "LargeHouse_C",
+        "LargeHouse_D"
+      ],
+      "Active": true
+    }
+  ]
+}
